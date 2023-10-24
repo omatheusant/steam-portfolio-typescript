@@ -21,12 +21,7 @@ export const Contact = () => {
               rel="nofollow"
             >
               Linkedin
-            </Link>{" "}
-            ou{" "}
-            <Link href="https://www.twitter.com" target="_blank" rel="nofollow">
-              Twitter
-            </Link>{" "}
-            se desejar mais praticidade!.
+            </Link>{" "}se desejar mais praticidade!
           </p>
         </Reveal>
         <Reveal width="100%">
