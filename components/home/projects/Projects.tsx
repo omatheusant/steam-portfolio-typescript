@@ -28,26 +28,16 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Pain.app is a real-time coaching app for students learning to paint.
-          This app is my baby, designed and built on my own.
+          AstroHub é uma comunidade para entusiastas da astronomia. Um site único, elegante e responsivo que busca oferecer ao usuário uma ótima experiência com artigos, notícias do espaço e informações atualizadas em tempo real.
         </p>
         <p>
-          The tech stack is based on top of Flutter for the mobile app,
-          connected to a Python & FastAPI backend, with data stored in Postgres,
-          deployed on Heroku.
+          Descubra o Cosmos! Graças a API da NASA  Astronomy Picture of The Day (APOD), cada dia é apresentado uma imagem ou fotografia diferente do nosso fascinante universo, juntamente com uma breve explicação escrita por um astrônomo profissional. Além disso, o usuário também pode se divertir pesquisando a foto de qualquer data de sua preferência.
         </p>
         <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
+          O AstroHub também apresenta dados dos do nosso Sistema Solar Atualizados em tempo  real com o consumo da API Solar System OpenData.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Meus planos para esse projeto são grandes. Atualmente, busco implementar meus conhecimentos de Backend com NodeJS para possibilitar a criação de contas e expandir ainda mais a experiência e qualidade do projeto.
         </p>
       </>
     ),
@@ -62,22 +52,9 @@ const projects = [
       "Esse portfólio também é um projeto de minha autoria! Cconstruído em NextJS, o objetivo deste projeto é trazer uma ótima experiência ao usuário com animações e componentes interativos",
     modalContent: (
       <>
-        <p>
-          The Canvas Club is a social community for painters to connect with
-          others in their community.
-        </p>
-        <p>
-          I work primarily on the backend, a collection of Node & Express
-          microservices. Data is stored primarily in Postgres & cached in Redis.
-        </p>
-        <p>
-          The team in total consists of 5 developers. This is a passion project
-          for all of us.
-        </p>
-        <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
+        <h2>
+          [Descrição em desenvolvimento...]
+        </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
           quia officia odio nulla consectetur aperiam ad tempora magni magnam
