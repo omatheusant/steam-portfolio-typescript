@@ -18,7 +18,7 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Portfólio (em andamento)",
+    title: "AstroHub (em andamento)",
     imgSrc: "project-imgs/astrohub.png",
     code: "https://github.com/omatheusant/astrohub",
     projectLink: "https://astrohub.vercel.app/",
