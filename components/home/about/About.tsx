@@ -8,7 +8,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 export const About = () => {
   return (
     <section id="about" className="section-wrapper">
-      <SectionHeader title="Sobre Mim" dir="l" />
+      <SectionHeader title="Sobre" dir="l" />
       <div className={styles.about}>
         <div>
           <Reveal>
