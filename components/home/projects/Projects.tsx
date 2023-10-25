@@ -5,7 +5,7 @@ import styles from "./projects.module.scss";
 export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
+      <SectionHeader title="Projetos" dir="r" />
 
       <div className={styles.projects}>
         {projects.map((project) => {
@@ -18,13 +18,13 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Paint.app",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Flutter", "MUI", "Python", "FastAPI"],
+    title: "Portfólio (em andamento)",
+    imgSrc: "project-imgs/astrohub.png",
+    code: "https://github.com/omatheusant/astrohub",
+    projectLink: "https://astrohub.vercel.app/",
+    tech: ["React", "Styled-Components", "API", "TypeScript"],
     description:
-      "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
+      " Uma comunidade para entusiastas da astronomia que consome a API da NASA. O AstroHub possui diversos artigos, notícias e imagens recentes do espaço ",
     modalContent: (
       <>
         <p>
@@ -53,13 +53,13 @@ const projects = [
     ),
   },
   {
-    title: "The Canvas Club",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Node", "Express", "Postgres", "Kafka", "Redis"],
+    title: "Portfólio",
+    imgSrc: "project-imgs/portfolio.png",
+    code: "https://github.com/omatheusant/steam-portfolio-typescript",
+    projectLink: "https://vercel.com/omatheusants-projects/matheusant",
+    tech: ["React", "NextJS", "Sass", "TypeScript"],
     description:
-      "A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users).",
+      "Esse portfólio também é um projeto de minha autoria! Cconstruído em NextJS, o objetivo deste projeto é trazer uma ótima experiência ao usuário com animações e componentes interativos",
     modalContent: (
       <>
         <p>

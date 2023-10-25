@@ -45,7 +45,7 @@ export const SideBar = () => {
         }}
         className={selected === "about" ? styles.selected : ""}
       >
-        About
+        Sobre
       </motion.a>
       <motion.a
         initial={{ x: -70 }}
@@ -55,7 +55,7 @@ export const SideBar = () => {
         onClick={() => setSelected("projects")}
         className={selected === "projects" ? styles.selected : ""}
       >
-        Projects
+        Projetos
       </motion.a>
       <motion.a
         initial={{ x: -70 }}
@@ -75,7 +75,7 @@ export const SideBar = () => {
         onClick={() => setSelected("contact")}
         className={selected === "contact" ? styles.selected : ""}
       >
-        Contact
+        Contato
       </motion.a>
     </motion.nav>
   );

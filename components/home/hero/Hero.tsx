@@ -27,7 +27,7 @@ export const Hero = () => {
           <StandardButton
             onClick={() => document.getElementById("contact")?.scrollIntoView()}
           >
-            Contact me
+            Fale comigo
           </StandardButton>
         </Reveal>
       </div>
