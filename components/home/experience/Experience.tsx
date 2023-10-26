@@ -14,17 +14,17 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Supermercado Ferreirão II ",
-    position: "Auxiliar Administrativo",
+    title: "Santana Infotec",
+    position: "Social Media",
     time: "Novembro de 2023 - Presente",
     location: "Poções, Bahia",
     description:
-      "Atuo como suporte administrativo realizando as seguintes atribuições: atendimento ao cliente (externo e interno), elaboração e gestão de planilhas, organização de documentos e emissão de notas fiscais.",
+      "Atuo como Social Media realizando as seguintes atribuições: atendimento ao cliente via chat, planejamento e criação de conteúdo, elaboração de artes e gestão de mídias sociais.",
     tech: [
-      "Pacote Office",
-      "Conta Azul",
-      "Agendor",
-      "Trello",
+      "Excell",
+      "Adobe Photoshop",
+      "Canva",
+      "Notion",
     ],
   },
 
