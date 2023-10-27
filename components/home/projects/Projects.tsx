@@ -46,7 +46,7 @@ const projects = [
     title: "Portfólio",
     imgSrc: "project-imgs/portfolio.png",
     code: "https://github.com/omatheusant/steam-portfolio-typescript",
-    projectLink: "https://vercel.com/omatheusants-projects/matheusant",
+    projectLink: "https://matheusant.vercel.app/",
     tech: ["React", "NextJS", "Sass", "TypeScript"],
     description:
       "Esse portfólio também é um projeto de minha autoria! Cconstruído em NextJS, o objetivo deste projeto é trazer uma ótima experiência ao usuário com animações e componentes interativos",
