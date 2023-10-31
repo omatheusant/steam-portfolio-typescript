@@ -20,24 +20,25 @@ const projects = [
   {
     title: "AstroHub (em andamento)",
     imgSrc: "project-imgs/astrohub.png",
-    code: "https://github.com/omatheusant/astrohub",
+    code: "https://github.com/omatheusant/astrohub-oficial",
     projectLink: "https://astrohub.vercel.app/",
-    tech: ["React", "Styled-Components", "API", "TypeScript"],
+    tech: ["React", "NextJs", "Styled-Components", "Axios", "Sass","API", "TypeScript"],
     description:
-      " Uma comunidade para entusiastas da astronomia que consome a API da NASA. O AstroHub possui diversos artigos, notícias e imagens recentes do espaço ",
+      " O AstroHub é um projeto de que representa a síntese da tecnologia e da fascinação pelo cosmos. Desenvolvida em React com Next.js, esta Landing Page interativa sobre astronomia oferece uma experiência envolvente para os entusiastas do espaço.",
     modalContent: (
       <>
         <p>
-          AstroHub é uma comunidade para entusiastas da astronomia. Um site único, elegante e responsivo que busca oferecer ao usuário uma ótima experiência com artigos, notícias do espaço e informações atualizadas em tempo real.
+          Principais características e tecnologias utilizadas:
         </p>
+        <ul>
+           <li> Desenvolvida em React com Next.js para garantir alta performance e otimização de SEO.</li>
+           <li>Integração de APIs, incluindo a Astronomy Picture of The Day e Solar System OpenData, para oferecer imagens e informações astronômicas atualizadas.</li>
+           <li>Design responsivo e interativo que se adapta perfeitamente a diversos dispositivos, proporcionando uma experiência de usuário consistente.</li>
+           <li>Navegação intuitiva e fácil de usar, permitindo aos visitantes explorar o vasto universo com facilidade.</li>
+           <li>Foi utilizado o TypeScript para fornecer um código tipado e de fácil entendimento.</li>
+        </ul>
         <p>
-          Descubra o Cosmos! Graças a API da NASA  Astronomy Picture of The Day (APOD), cada dia é apresentado uma imagem ou fotografia diferente do nosso fascinante universo, juntamente com uma breve explicação escrita por um astrônomo profissional. Além disso, o usuário também pode se divertir pesquisando a foto de qualquer data de sua preferência.
-        </p>
-        <p>
-          O AstroHub também apresenta dados dos do nosso Sistema Solar Atualizados em tempo  real com o consumo da API Solar System OpenData.
-        </p>
-        <p>
-          Meus planos para esse projeto são grandes. Atualmente, busco implementar meus conhecimentos de Backend com NodeJS para possibilitar a criação de contas e expandir ainda mais a experiência e qualidade do projeto.
+          Meus planos para esse projeto são grandes. Atualmente, busco implementar meus conhecimentos de Backend com NodeJS para expandir ainda mais as possibilidades e qualidades do projeto.
         </p>
       </>
     ),
