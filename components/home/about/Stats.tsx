@@ -18,14 +18,15 @@ export const Stats = () => {
             <span className="chip">CSS</span>
             <span className="chip">React</span>
             <span className="chip">Jest</span>
-            <span className="chip">NodeJS</span>
-            <span className="chip">NextJS</span>
+            <span className="chip">Next.js</span>
             <span className="chip">Redux</span>
             <span className="chip">Sass</span>
             <span className="chip">Git/GitHub</span>
-            <span className="chip">Adobe Photoshop</span>
             <span className="chip">Figma</span>
             <span className="chip">Tailwind</span>
+            <span className="chip">Node.js</span>
+            <span className="chip">PostgreSQL</span>
+            <span className="chip">Express</span>
           </div>
         </div>
       </Reveal>
@@ -37,13 +38,11 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">Comunicação</span>
-            <span className="chip">Liderança</span>
             <span className="chip">Trabalho em equipe</span>
             <span className="chip">Solução de problemas</span>
-            <span className="chip">Proativo</span>
+            <span className="chip">Proatividade</span>
             <span className="chip">Aprendizado contínuo</span>
-            <span className="chip">Negociação</span>
-            <span className="chip">Pensamento crítico</span>
+            <span className="chip">Marketing</span>
           </div>
         </div>
       </Reveal>
