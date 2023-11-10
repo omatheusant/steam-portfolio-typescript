@@ -14,9 +14,9 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Santana Infotec",
+    title: "Infotech",
     position: "Social Media",
-    time: "Novembro de 2023 - Presente",
+    time: "Novembro de 2022 - Novembro de 2023 ",
     location: "Poções, Bahia",
     description:
       "Atuo como Social Media realizando as seguintes atribuições: atendimento ao cliente via chat, planejamento e criação de conteúdo, elaboração de artes e gestão de mídias sociais.",
