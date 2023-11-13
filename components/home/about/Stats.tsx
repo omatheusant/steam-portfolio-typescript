@@ -41,7 +41,7 @@ export const Stats = () => {
           <div className={styles.statGrid}>
             <span className="chip">Node.js</span>
             <span className="chip">TypeScript</span>
-            <span className="chip">SQL e noSQL</span>
+            <span className="chip">Banco de Dados</span>
             <span className="chip">PostgreSQL</span>
             <span className="chip">API REST</span>
             <span className="chip">GraphQL</span>
