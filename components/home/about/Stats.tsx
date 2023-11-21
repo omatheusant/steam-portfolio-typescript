@@ -9,7 +9,7 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillCode size="2.4rem" color="var(--brand)" />
-            <span>Hard Skills</span>
+            <span>Frontend</span>
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">JavaScript</span>
@@ -18,15 +18,17 @@ export const Stats = () => {
             <span className="chip">CSS</span>
             <span className="chip">React</span>
             <span className="chip">Jest</span>
+            <span className="chip">Testing Library</span>
             <span className="chip">Next.js</span>
             <span className="chip">Redux</span>
-            <span className="chip">Sass</span>
+            <span className="chip">Axios</span>
+            <span className="chip">React Query</span>
             <span className="chip">Git/GitHub</span>
             <span className="chip">Figma</span>
-            <span className="chip">Tailwind</span>
-            <span className="chip">Node.js</span>
-            <span className="chip">PostgreSQL</span>
-            <span className="chip">Express</span>
+            <span className="chip">TailwindCSS</span>
+            <span className="chip">Styled-components</span>
+            <span className="chip">SASS</span>
+            <span className="chip">Material UI</span>
           </div>
         </div>
       </Reveal>
@@ -34,15 +36,17 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillSmile size="2.4rem" color="var(--brand)" />
-            <span>Soft Skills</span>
+            <span>Backend</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">Comunicação</span>
-            <span className="chip">Trabalho em equipe</span>
-            <span className="chip">Solução de problemas</span>
-            <span className="chip">Proatividade</span>
-            <span className="chip">Aprendizado contínuo</span>
-            <span className="chip">Marketing</span>
+            <span className="chip">Node.js</span>
+            <span className="chip">TypeScript</span>
+            <span className="chip">Banco de Dados</span>
+            <span className="chip">PostgreSQL</span>
+            <span className="chip">API REST</span>
+            <span className="chip">GraphQL</span>
+            <span className="chip">Express</span>
+            <span className="chip">DBeaver</span>
           </div>
         </div>
       </Reveal>
