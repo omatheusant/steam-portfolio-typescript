@@ -22,21 +22,23 @@ const projects = [
     imgSrc: "project-imgs/astrohub.png",
     code: "https://github.com/omatheusant/astrohub-oficial",
     projectLink: "https://astrohub.vercel.app/",
-    tech: ["React", "NextJs", "Styled-Components", "Axios", "Sass","API", "TypeScript"],
+    tech: ["React", "NextJs", "Styled-Components", "Axios", "Sass", "API", "TypeScript"],
     description:
-      " O AstroHub é um projeto de que representa a síntese da tecnologia e da fascinação pelo cosmos. Desenvolvida em React com Next.js, esta Landing Page interativa sobre astronomia oferece uma experiência envolvente para os entusiastas do espaço.",
+      " O AstroHub é um projeto que representa a síntese da minha paixão pelo código e da fascinação pelo cosmos. Desenvolvida em React com Next.js, esta Landing Page interativa sobre astronomia oferece uma experiência envolvente para os entusiastas do espaço. 🚀",
     modalContent: (
       <>
         <p>
           Principais características e tecnologias utilizadas:
         </p>
-        <ul>
-           <li> Desenvolvida em React com Next.js para garantir alta performance e otimização de SEO.</li>
-           <li>Integração de APIs, incluindo a Astronomy Picture of The Day e Solar System OpenData, para oferecer imagens e informações astronômicas atualizadas.</li>
-           <li>Design responsivo e interativo que se adapta perfeitamente a diversos dispositivos, proporcionando uma experiência de usuário consistente.</li>
-           <li>Navegação intuitiva e fácil de usar, permitindo aos visitantes explorar o vasto universo com facilidade.</li>
-           <li>Foi utilizado o TypeScript para fornecer um código tipado e de fácil entendimento.</li>
-        </ul>
+        <p> Decidi utilizar o axios para consumir três APIs diferentes, que são:</p>
+
+        <p>Astronomy Picture of the Day: API da NASA usada para exibir "imagem do dia" de acordo com a data atual.</p>
+
+        <p>SpaceNews API: Minha própria API desenvolvida com Node.js e Express com o objetivo de exibir notícias acerca do espaço.</p>
+
+        <p>SolarSystem OpenData: Usada para exibir dados atualizados em tempo real sobre o sistema solar.</p>
+
+        <p>Para as animações e slide, utilizei as libs framer-motion e swiper slide.</p>
         <p>
           Meus planos para esse projeto são grandes. Atualmente, busco implementar meus conhecimentos de Backend com NodeJS para expandir ainda mais as possibilidades e qualidades do projeto.
         </p>
@@ -50,23 +52,17 @@ const projects = [
     projectLink: "https://matheusant.vercel.app/",
     tech: ["React", "NextJS", "Sass", "TypeScript"],
     description:
-      "Esse portfólio também é um projeto de minha autoria! Cconstruído em NextJS, o objetivo deste projeto é trazer uma ótima experiência ao usuário com animações e componentes interativos",
+      "Um portfólio moderno, elegante e minimalista. Steam é um projeto designado para desenvolvedores/designers com o objetivo de ser um template completo com componentes reutilizáveis.",
     modalContent: (
       <>
-        <h2>
-          [Descrição em desenvolvimento...]
-        </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
+          Desenvolvido em React com Next.js, esse template busca oferecer uma interface moderna, elegante e direta. Onde todas as informações são dispostas em uma única página com componentes interativos e dinâmicos.
         </p>
         <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+            Foi utilizado o Sass para as estilizações. Além disso, as variáveis globais possibilitam uma fácil edição de cores, tornando o template ainda mais fácil de ser completamente editável.
         </p>
       </>
     ),
   },
- 
+
 ];
