@@ -13,6 +13,7 @@
       font-weight: bold;
       position: relative;
       margin-left: 0.8rem;
+      
     }
   }
 }
@@ -23,4 +24,9 @@
   gap: 1.2rem;
 
   margin-bottom: 4.8rem;
+  span{
+    background: var(--background-light);
+
+  }
 }
+

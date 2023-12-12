@@ -23,11 +23,10 @@
 
     writing-mode: vertical-lr;
     font-size: var(--text-sm);
-    font-weight: 200;
+    font-weight: 300;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.5;
 
     border-right: 1px solid transparent;
 
@@ -39,6 +38,7 @@
     background: var(--background);
     border-right: 1px solid var(--brand);
     opacity: 1;
+    transition: 0.3s ease-in-out;
   }
 
   .selected {
@@ -51,7 +51,7 @@
 .logo {
   flex-shrink: 0;
 
-  font-size: var(--text-md);
+  font-size: var(--text-lg);
   font-weight: 900;
   line-height: 1;
 
@@ -68,7 +68,7 @@
   margin: 1.8rem 0;
 
   span {
-    font-size: var(--text-md);
+    font-size: var(--text-);
     font-weight: 900;
     line-height: 1;
     color: var(--brand);

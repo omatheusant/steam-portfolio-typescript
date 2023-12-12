@@ -17,7 +17,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.0 }}
       >
         <Link href="https://www.linkedin.com/in/omatheussant" target="_blank" rel="nofollow">
-          <AiFillLinkedin size="2.4rem" />
+          <AiFillLinkedin size="3.0rem" />
         </Link>
       </motion.span>
 
@@ -27,7 +27,7 @@ export const MyLinks = () => {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link href="https://www.github.com/omatheusant" target="_blank" rel="nofollow">
-          <AiFillGithub size="2.4rem" />
+          <AiFillGithub size="3.0rem" />
         </Link>
       </motion.span>
 

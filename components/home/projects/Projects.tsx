@@ -32,7 +32,7 @@ const projects = [
         </p>
         <p> Decidi utilizar o axios para consumir três APIs diferentes, que são:</p>
 
-        <p>Astronomy Picture of the Day: API da NASA usada para exibir "imagem do dia" de acordo com a data atual.</p>
+        <p>Astronomy Picture of the Day: API da NASA usada para exibir{ "imagem do dia" }de acordo com a data atual.</p>
 
         <p>SpaceNews API: Minha própria API desenvolvida com Node.js e Express com o objetivo de exibir notícias acerca do espaço.</p>
 

@@ -4,9 +4,9 @@
   padding-top: 10px;
 
   a {
-    opacity: 0.5;
     position: relative;
     z-index: 20;
+    transition: 0.3s ease-in-out;
   }
 
   a:hover {
