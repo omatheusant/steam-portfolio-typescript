@@ -16,15 +16,19 @@ const experience = [
   {
     title: "Infotech",
     position: "Social Media",
-    time: "Novembro de 2022 - Novembro de 2023 ",
+    time: "Novembro de 2023 - O momento",
     location: "Poções, Bahia",
     description:
-      "Atuo como Social Media realizando as seguintes atribuições: atendimento ao cliente via chat, planejamento e criação de conteúdo, elaboração de artes e gestão de mídias sociais.",
+      "Atuo no desenvolvimento de uma aplicação fullstack. O projeto visa beneficiar as equipes internas de criação de anúncios, oferecendo automatização de processos de edição e, também, ferramentas de manipulação de imagens. O que proporcionou um aumento gradual na velocidade de criação de novos anúncios para as plataformas de venda digitais.",
     tech: [
-      "Excell",
-      "Adobe Photoshop",
-      "Canva",
-      "Notion",
+      "NextJs",
+      "ReactJs",
+      "TypeScript",
+      "NodeJs",
+      "Ruby On Rails",
+      "Prisma ORM",
+      "MongoDB",
+      "TailwindCSS"
     ],
   },
 
