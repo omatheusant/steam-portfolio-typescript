@@ -14,8 +14,8 @@ export const Experience = () => {
 
 const experience = [
   {
-    title: "Infotech",
-    position: "Social Media",
+    title: "Ismafer Ferramentas",
+    position: "Desenvolvedor Web Jr.",
     time: "Novembro de 2023 - O momento",
     location: "Poções, Bahia",
     description:
