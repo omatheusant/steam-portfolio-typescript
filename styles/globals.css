@@ -1,13 +1,13 @@
 :root {
   font-size: 62.5%;
 
-  --background: #FBF5F3;
-  --bg-opaque: rgba(240, 240, 240, 0.25);
-  --background-light: #ffdbe198;
-  --background-dark: rgb(241, 241, 241);
+  --background: rgb(17, 17, 17);
+  --bg-opaque: rgb(17, 17, 17, 0.25);
+  --background-light: rgb(35, 35, 35);
+  --background-dark: rgb(8, 8, 8);
 
-  --text: #0B0A07;
-  --brand: #7B0828;
+  --text: rgb(235, 236, 243);
+  --brand: rgb(10, 255, 157);
 
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
@@ -16,6 +16,7 @@
   --text-xl: 5.6rem;
   --text-2xl: 9.6rem;
 }
+
 
 * {
   box-sizing: border-box;
