@@ -19,8 +19,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            Tenho 20 anos, sou um Desenvolvedor Frontend com 6 meses de experiência como freelancer e estou em busca da minha primeira vaga de emprego. Eu amo a jogos, arte e pizza. 
-            Let&apos;s connect!
+            Oi 👋 Eu sou Matheus Santana – designer e programador frontend com 8 meses experiência. Minha paixão pela tecnologia reside em transformar ideias em realidade com interfaces elegantes. Uso de minha expertise para criar produtos digitais que ofereçam experiência, performance e qualidade de código. 
           </p>
         </Reveal>
         <Reveal>
