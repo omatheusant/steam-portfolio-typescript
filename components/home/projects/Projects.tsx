@@ -18,13 +18,28 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "AstroHub (em andamento)",
+    title: "Ismafer Tools",
+    imgSrc: "project-imgs/ismafer-tools.png",
+    code: "https://github.com/ismaferFerramentas/ismafer-tools",
+    projectLink: "https://ismafer-tools-main.vercel.app/",
+    tech: ["Next.js", "TypeScript", "NextAuth.js", "Fabric.js", "TailwindCSS", "Vitest", "Rest API", "Prisma", "Node.js", "Express", "MongoDB" ],
+    description:
+      "Aplicativo web para edição e manipulação de imagens com foco na criação de anúncios com inúmeras funcionalidades como: autenticação e autorização baseada em cargos, automatização de cortes em imagens, removedor automático de fundo e editor Canva para a criação de capas personalizadas. 🔧",
+    modalContent: (
+      <>
+        <h2>Principais características</h2>
+        <h3>Em desenvolvimento...</h3>
+      </>
+    ),
+  },
+  {
+    title: "AstroHub",
     imgSrc: "project-imgs/astrohub.png",
     code: "https://github.com/omatheusant/astrohub-oficial",
     projectLink: "https://astrohub.vercel.app/",
     tech: ["React", "NextJs", "Styled-Components", "Axios", "Sass", "API", "TypeScript"],
     description:
-      " O AstroHub é um projeto que representa a síntese da minha paixão pelo código e da fascinação pelo cosmos. Desenvolvida em React com Next.js, esta Landing Page interativa sobre astronomia oferece uma experiência envolvente para os entusiastas do espaço. 🚀",
+      "O AstroHub é um projeto que representa a síntese da minha paixão pelo código e da fascinação pelo cosmos. Desenvolvida em React com Next.js, esta Landing Page interativa sobre astronomia oferece uma experiência envolvente para os entusiastas do espaço. 🚀",
     modalContent: (
       <>
         <p>
@@ -32,16 +47,13 @@ const projects = [
         </p>
         <p> Decidi utilizar o axios para consumir três APIs diferentes, que são:</p>
 
-        <p>Astronomy Picture of the Day: API da NASA usada para exibir{ "imagem do dia" }de acordo com a data atual.</p>
+        <p>Astronomy Picture of the Day: API da NASA usada para exibir { "imagem do dia" }de acordo com a data atual.</p>
 
         <p>SpaceNews API: Minha própria API desenvolvida com Node.js e Express com o objetivo de exibir notícias acerca do espaço.</p>
 
         <p>SolarSystem OpenData: Usada para exibir dados atualizados em tempo real sobre o sistema solar.</p>
 
         <p>Para as animações e slide, utilizei as libs framer-motion e swiper slide.</p>
-        <p>
-          Meus planos para esse projeto são grandes. Atualmente, busco implementar meus conhecimentos de Backend com NodeJS para expandir ainda mais as possibilidades e qualidades do projeto.
-        </p>
       </>
     ),
   },
