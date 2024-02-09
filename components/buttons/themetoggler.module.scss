@@ -1,0 +1,11 @@
+.icons {
+  position: relative;
+  z-index: 20;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.icons:hover {
+  color: var(--brand);
+  opacity: 1;
+}

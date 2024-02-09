@@ -120,61 +120,6 @@ const projects = [
     ),
   },
   {
-    title: "Pretty Blog",
-    imgSrc: "project-imgs/pretty-blog.png",
-    code: "https://github.com/omatheusant/astrohub-oficial",
-    projectLink: "https://astrohub.vercel.app/",
-    tech: [
-      "React",
-      "NextJs",
-      "Styled-Components",
-      "Axios",
-      "Sass",
-      "REST API",
-      "TypeScript",
-    ],
-    description:
-      "O AstroHub é um projeto que representa a síntese da minha paixão pelo código e da fascinação pelo cosmos. Desenvolvida em React com Next.js, esta Landing Page interativa sobre astronomia oferece uma experiência envolvente para os entusiastas do espaço. 🚀",
-    modalContent: (
-      <>
-        <h2>Principais características</h2>
-
-        <p>
-          Landing Page simples e intuitiva desenvolvida em Nextjs para uma boa
-          performance.
-        </p>
-        <p>
-          Estilização feita com Sass e Styled-Components visando a criação de
-          estilos reutilizáveis e de fácil manutenção
-        </p>
-        <p>
-          Axios foi a biblioteca utilizada para realizar o fetch nas APIs
-          necessárias para o projeto devido a sua segurança e fácil usabilidade{" "}
-        </p>
-
-        <p>
-          Astronomy Picture of the Day: API da NASA usada para exibir{" "}
-          {"imagem do dia"}de acordo com a data atual.
-        </p>
-
-        <p>
-          SpaceNews API: Minha própria API desenvolvida com Node.js e Express
-          com o objetivo de exibir notícias acerca do espaço.
-        </p>
-
-        <p>
-          SolarSystem OpenData: Usada para exibir dados atualizados em tempo
-          real sobre o sistema solar.
-        </p>
-
-        <p>
-          Para as animações e slide, foi utilizado as bibliotecas framer-motion
-          e swiper-slide.
-        </p>
-      </>
-    ),
-  },
-  {
     title: "AstroHub",
     imgSrc: "project-imgs/astrohub.png",
     code: "https://github.com/omatheusant/astrohub-oficial",

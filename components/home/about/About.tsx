@@ -26,7 +26,7 @@ export const About = () => {
               Hoje, atuo como{" "}
               <span style={{ color: "var(--brand)" }}>Freelancer</span> e também
               sou{" "}
-              <span style={{ color: "var(--brand)" }}>Desenvolvedor Web</span>
+              <span style={{ color: "var(--brand)" }}>Desenvolvedor Web </span>
               na Ismafer Ferramentas, um dos maiores e-commerces de ferramentas
               do Mercado Livre no Brasil. Onde recentemente desenvolvi uma
               ferramenta web de design para uso interno que trouxe um aumento de
