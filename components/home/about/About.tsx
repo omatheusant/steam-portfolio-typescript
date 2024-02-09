@@ -13,22 +13,31 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-            Me chamo Matheus Santana, tenho 20 anos e sou apaixonado desde criança por tecnologia, jogos e programação. Quando mais jovem, programei em Javascript e Ruby, criando jogos e programas.
+              Me chamo Matheus Santana, tenho 20 anos e meu primeiro contato com
+              programação foi ainda na infância, quando criei um jogo utilizando
+              uma ferramenta chamada RPG Maker. Que, em sua base, utilizava
+              scripts em{" "}
+              <span style={{ color: "var(--brand)" }}>JavaScript</span> e{" "}
+              <span style={{ color: "var(--brand)" }}>Ruby</span>.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            Em 2023, decidi retomar meus estudos em programação. Desta vez, focando em Javascript para a área de Desenvolvimento Frontend. Escolhi o Javascript devido a sua grande comunidade, enorme potencial de crescimento e sua grande adaptabilidade que se expande para a Web, Mobile e Backend, através de React e Node.
+              Hoje, atuo como{" "}
+              <span style={{ color: "var(--brand)" }}>Freelancer</span> e também
+              sou{" "}
+              <span style={{ color: "var(--brand)" }}>Desenvolvedor Web</span>
+              na Ismafer Ferramentas, um dos maiores e-commerces de ferramentas
+              do Mercado Livre no Brasil. Onde recentemente desenvolvi uma
+              ferramenta web de design para uso interno que trouxe um aumento de
+              velocidade na criação de anúncios para diferentes markteplaces e,
+              lucros significativos em comparação a ferramentas pagas.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            Atuo como freelancer visando desenvolver minhas habilidades e criar conexões significativas enquanto desenvolvo meus projetos pessoais.
-            </p>
-          </Reveal>
-          <Reveal>
-            <p className={styles.aboutText}>
-            Estou buscando minha primeira vaga onde possa fundir meu amor pelo código com a comunicação. Se você tem uma vaga que eu poderia gostar, vamos nos conectar! 🔗
+              Vamos nos <span style={{ color: "var(--brand)" }}>conectar</span>?
+              🔗
             </p>
           </Reveal>
           <Reveal>

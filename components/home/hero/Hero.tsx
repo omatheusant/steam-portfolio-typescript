@@ -14,12 +14,16 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>Frontend Developer</span>
+            I&apos;m a <span>Fullstack Developer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            Oi 👋 Eu sou Matheus Santana – designer e programador frontend com 8 meses experiência. Minha paixão pela tecnologia reside em transformar ideias em realidade com interfaces elegantes. Uso de minha expertise para criar produtos digitais que ofereçam experiência, performance e qualidade de código. 
+            Oi 👋 Eu sou Matheus – Um designer e programador fullstack
+            freelancer. Minha paixão pela tecnologia reside em sonhar ideias e
+            torná-las realidade com interfaces elegantes. Desenvolvo interfaces
+            modernas e de alta qualidade, concentrado em performance, animações,
+            responsividade e SEO.
           </p>
         </Reveal>
         <Reveal>
