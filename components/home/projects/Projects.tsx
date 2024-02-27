@@ -18,10 +18,10 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Ismafer Tools",
+    title: "Ismafer Studio",
     imgSrc: "project-imgs/ismafer-tools.png",
-    code: "https://github.com/omatheusant/ismafer-tools-guest",
-    projectLink: "https://ismafer-tools-main.vercel.app/",
+    code: "https://github.com/omatheusant/IsmaferStudio",
+    projectLink: "https://ismafer-studio.vercel.app/",
     tech: [
       "Next.js",
       "TypeScript",
